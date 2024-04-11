@@ -1,15 +1,15 @@
-
+import '../src/assets/fonts/roboto'
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Login from './pages/Login';
 
 function App() {
 
   return (
     <div className='main'>
-      <h1>Esto es el app.jsx</h1>
-      {/* 
-          Header
-          Login
-          Footer
-        */}
+      <Header/>
+      <Login/>
+      <Footer/>
     </div>
   )
 }
